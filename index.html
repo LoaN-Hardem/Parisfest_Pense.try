@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ParisFest - Decoração para Festas</title>
+    <link rel="shortcut icon" href="./src/Img/torre-eiffel.png" type="image/x-icon">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -64,8 +65,8 @@
         }
 
         .hero-bg {
-            background: linear-gradient(rgba(255, 230, 210, 0.8), rgba(255, 230, 210, 0.8)),
-                url('./src/Img/img-bg.jpg') center/cover;
+            background: linear-gradient(rgba(255, 230, 210, 0.9), rgba(255, 230, 210, 0.9)),
+                url('./src/Img/torre.jpg') center/cover;
         }
 
         .card-hover {
@@ -180,8 +181,8 @@
     <nav class="bg-white shadow-md fixed w-full z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
-                <a href="#" class="text-xl font-bold">
-                    Parisfest
+                <a href="#home" class="text-xl font-bold">
+                    <img class="h-12 w-12 object-cover rounded-full" src="./src/Img/logo.jpg" alt="">
                 </a>
 
                 <!-- Desktop Menu -->
@@ -216,11 +217,12 @@
     </nav>
 
     <!-- Hero Section Parallax -->
-    <section class="min-h-screen flex items-center hero-bg" id="home">
+    <section class="min-h-screen flex items-center hero-bg" id="home"> 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-32">
+            <p class="text-2xl md:text-5xl  mb-4">ParisFest</p>
             <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                <span class="block mb-4">Decoração que</span>
-                <span class="text-[var(--accent-1)]">Encanta</span> seu Evento
+                <span class="block mb-4">Reserve seu kit festa e </span>
+                <span class="text-[var(--accent-1)]">eternize</span> momentos
             </h1>
             <p class="text-xl md:text-2xl max-w-2xl mx-auto mb-8">
                 Peças exclusivas e montagens profissionais para transformar sua celebração
@@ -281,7 +283,7 @@
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <!-- Imagem -->
                 <div class="order-2 md:order-1">
-                    <img src="./src/Img/img-sobre.jpg" alt="Equipe ParisFest"
+                    <img src="./src/Img/slides/img-1.jpg" alt="Equipe ParisFest"
                         class="rounded-xl shadow-xl w-full h-auto object-cover">
                 </div>
 
@@ -294,25 +296,24 @@
 
                     <div class="space-y-4 text-lg">
                         <p>
-                            A ParisFest nasceu da paixão por criar experiências memoráveis.
-                            Em 2022, nosso fundador Daniel começou a montar cenários e descobriu
-                            que cada evento merece um toque especial.
+                            A Parisfest Decorações é especialista em transformar momentos especiais em memórias
+                            inesquecíveis. Cuidamos de cada detalhe com muito carinho, criatividade e aquele toque
+                            especial que faz toda a diferença.
                         </p>
                         <p>
-                            Nosso propósito é simples mas poderoso:
-                            <strong class="text-[var(--accent-1)]">tornar momentos especiais
-                                ainda mais mágicos</strong>. Acreditamos que a decoração
-                            perfeita é a chave para criar atmosferas únicas que
-                            ficam guardadas na memória.
+                            Cada festa é única, e o nosso compromisso é com você. Prezamos pela qualidade de cada peça e
+                            nos dedicamos ao máximo para que tudo se torne incrível. Trabalhamos com os mais diversos
+                            temas e espalhamos boas vibrações do planejamento à realização.
                         </p>
                         <p>
-                            Hoje, com mais de 100 peças exclusivas em nosso catálogo,
-                            continuamos inovando para oferecer soluções criativas
-                            que encantam nossos clientes.
+                            Mais do que decorar, queremos criar sensações, despertar sorrisos e marcar momentos. Porque
+                            aqui, cada celebração é feita com amor, pensando em você e nas histórias que ficarão para
+                            sempre na memória.
                         </p>
                     </div>
 
-                    <a href="https://wa.me/5515997679394" target="_blank" class="btn-primary mt-8 inline-block">Ver Catálogo</a>
+                    <a href="https://wa.me/5515997679394" target="_blank" class="btn-primary mt-8 inline-block">Ver
+                        Catálogo</a>
                 </div>
             </div>
         </div>
@@ -506,8 +507,8 @@
             </div>
 
             <div class="max-w-3xl mx-auto grid gap-4">
-                 <!-- Item 1 -->
-                 <div class="bg-white rounded-xl shadow-sm transition-all duration-200 hover:shadow-md">
+                <!-- Item 1 -->
+                <div class="bg-white rounded-xl shadow-sm transition-all duration-200 hover:shadow-md">
                     <button class="faq-btn w-full flex justify-between items-center p-6 text-left">
                         <span class="text-lg font-medium">O que é o sitema Pegue e Monte?</span>
                         <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="var(--text-color)"
@@ -525,37 +526,41 @@
                 <!-- Item 2 -->
                 <div class="bg-white rounded-xl shadow-sm transition-all duration-200 hover:shadow-md">
                     <button class="faq-btn w-full flex justify-between items-center p-6 text-left">
-                        <span class="text-lg font-medium">Posso alugar por apenas 1 dia?</span>
+                        <span class="text-lg font-medium">Quais temas vocês oferecem para decoração?
+                        </span>
                         <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="var(--text-color)"
                             viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
-                        <p class="text-gray-600">Sim! Oferecemos períodos mínimos de 24 horas para a maioria dos itens.
-                            O valor diário é calculado proporcionalmente ao período de locação escolhido.</p>
+                        <p class="text-gray-600">Trabalhamos com uma variedade enorme de temas, desde os clássicos até
+                            os mais personalizados. Se não tivermos, a gente cria!
+                        </p>
                     </div>
                 </div>
 
                 <!-- Item 3 -->
                 <div class="bg-white rounded-xl shadow-sm transition-all duration-200 hover:shadow-md">
                     <button class="faq-btn w-full flex justify-between items-center p-6 text-left">
-                        <span class="text-lg font-medium">Vocês entregam fora da cidade?</span>
+                        <span class="text-lg font-medium">Vocês fazem decorações em casa, salão ou ar livre?
+                        </span>
                         <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="var(--text-color)"
                             viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
-                        <p class="text-gray-600">Entregamos em toda região metropolitana com taxa adicional. Para outras
-                            localidades, consulte nossa equipe para verificar viabilidade e custos.</p>
+                        <p class="text-gray-600">Sim! Adaptamos o projeto ao local da festa, seja em casa, salão, sítio
+                            ou onde a magia for acontecer.
+                        </p>
                     </div>
                 </div>
 
                 <!-- Item 4 -->
                 <div class="bg-white rounded-xl shadow-sm transition-all duration-200 hover:shadow-md">
                     <button class="faq-btn w-full flex justify-between items-center p-6 text-left">
-                        <span class="text-lg font-medium">E se eu danificar alguma peça?</span>
+                        <span class="text-lg font-medium">O que está incluso na decoração completa?</span>
                         <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="var(--text-color)"
                             viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -563,17 +568,48 @@
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="text-gray-600 space-y-2">
-                            <p>Danos são avaliados caso a caso:</p>
-                            <ul class="list-disc pl-4">
-                                <li>Desgaste normal: sem custo</li>
-                                <li>Danos reparáveis: taxa de manutenção</li>
-                                <li>Perda total: valor depreciado do item</li>
-                            </ul>
+                            <p>Montagem completa com painel, balões, móveis, arranjos, personagens, enfeites de mesa e
+                                outros itens combinados com você.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-               
+                <!-- Item 5 -->
+                <div class="bg-white rounded-xl shadow-sm transition-all duration-200 hover:shadow-md">
+                    <button class="faq-btn w-full flex justify-between items-center p-6 text-left">
+                        <span class="text-lg font-medium">Com quanto tempo de antecedência devo reservar a data?
+                        </span>
+                        <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="var(--text-color)"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="text-gray-600 space-y-2">
+                            <p>Quanto antes, melhor! O ideal é garantir sua data com pelo menos 30 dias de antecedência,
+                                especialmente em períodos mais disputados.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="bg-white rounded-xl shadow-sm transition-all duration-200 hover:shadow-md">
+                    <button class="faq-btn w-full flex justify-between items-center p-6 text-left">
+                        <span class="text-lg font-medium">Posso personalizar a decoração com o nome da criança e detalhes únicos?
+                        </span>
+                        <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="var(--text-color)"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="text-gray-600 space-y-2">
+                            <p>Claro! Adoramos personalizar. Cada detalhe é pensado com carinho para deixar a festa com a carinha do seu pequeno.</p>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Adicione mais itens seguindo o mesmo padrão -->
             </div>
@@ -585,7 +621,9 @@
         <div class="max-w-3xl mx-auto">
             <div class="text-center mb-8">
                 <h2 class="text-3xl font-bold mb-2">Pegue e Monte</h2>
-                <p class="text-lg">Escolha as peças e combine como preferir</p>
+                <p class="text-lg">“Pegue e monte” é um kit de decoração pronto, que você retira com a gente e monta no
+                    local da festa. Prático, econômico e do jeitinho que você escolheu!
+                </p>
             </div>
 
             <!-- Passos Simplificados -->
@@ -600,7 +638,7 @@
                         </svg>
                     </div>
                     <h3 class="font-bold mb-2">1. Selecione</h3>
-                    <p class="text-sm">Escolha as peças no catálogo online</p>
+                    <p class="text-sm">Escolha as peças no catálogo</p>
                 </div>
 
                 <!-- Passo 2 -->
@@ -625,14 +663,14 @@
                         </svg>
                     </div>
                     <h3 class="font-bold mb-2">3. Finalize</h3>
-                    <p class="text-sm">Confirme e aguarde a entrega</p>
+                    <p class="text-sm">Confirme e retire com a gente</p>
                 </div>
             </div>
 
             <!-- CTA Simplificado -->
             <div class="mt-12 text-center">
                 <a href="https://wa.me/5515997679394" target="_blank" class="btn-primary">
-                    Começar Agora
+                    Montar Agora
                 </a>
             </div>
         </div>
@@ -768,7 +806,7 @@
                         <li>📍 Rua das Festas, 123</li>
                     </ul>
                 </div>
-            
+
                 <!-- Redes Sociais -->
                 <div>
                     <h3 class="font-bold mb-4 text-lg">Redes Sociais</h3>
@@ -787,7 +825,8 @@
                                     d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                             </svg>
                         </a>
-                        <a href="https://wa.me/5515997679394" target="_blank" class="p-2 bg-[var(--accent-2)] rounded-full hover:bg-[var(--accent-1)] transition">
+                        <a href="https://wa.me/5515997679394" target="_blank"
+                            class="p-2 bg-[var(--accent-2)] rounded-full hover:bg-[var(--accent-1)] transition">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                 <!-- Ícone WhatsApp -->
                                 <path
@@ -850,8 +889,8 @@
         const decoPhotos = [
             {
                 image: './src/Img/slides/img-1.jpg',
-                theme: 'Chá Revelação',
-                description: 'Decoração em tons claros com elementos brilhantes, e ursos de pelucia.'
+                theme: 'A Mais Escolhida',
+                description: 'Esta é a principal decoração que temos, decoração em tons claros com elementos brilhantes, e ursos de pelucia.'
             },
             {
                 image: './src/Img/slides/img-2.jpg',
