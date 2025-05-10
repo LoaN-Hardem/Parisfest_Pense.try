@@ -9,6 +9,12 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Clicker+Script&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+
     <!-- Swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 
@@ -22,13 +28,19 @@
         }
 
         * {
-            font-family: 'Raleway', sans-serif;
+            font-family: "Quicksand", sans-serif;
             color: var(--text-color);
+        }
+
+        .t2 {
+            font-family: "Baloo 2", cursive;
         }
 
         .btn-primary {
             background-color: var(--accent-1);
-            color: var(--text-color);
+            font-family: "Baloo 2", cursive;
+            font-size: 1.2rem;
+            color: #ffffff;
             padding: 12px 24px;
             border-radius: 30px;
             transition: all 0.3s;
@@ -67,6 +79,10 @@
         .hero-bg {
             background: linear-gradient(rgba(255, 230, 210, 0.9), rgba(255, 230, 210, 0.9)),
                 url('./src/Img/torre.jpg') center/cover;
+        }
+
+        .p1 {
+            font-family: 'Clicker Script', cursive;
         }
 
         .card-hover {
@@ -217,22 +233,22 @@
     </nav>
 
     <!-- Hero Section Parallax -->
-    <section class="min-h-screen flex items-center hero-bg" id="home"> 
+    <section class="min-h-screen flex items-center hero-bg" id="home">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-32">
-            <p class="text-2xl md:text-5xl  mb-4">ParisFest</p>
-            <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <p class="p1 text-5xl md:text-7xl  mb-4">ParisFest</p>
+            <h1 class="t2 text-5xl md:text-7xl font-bold mb-6 leading-tight">
                 <span class="block mb-4">Reserve seu kit festa e </span>
                 <span class="text-[var(--accent-1)]">eternize</span> momentos
             </h1>
             <p class="text-xl md:text-2xl max-w-2xl mx-auto mb-8">
-                Peças exclusivas e montagens profissionais para transformar sua celebração
+                Elegância, exclusividade e produção impecável para eventos memoráveis.
             </p>
             <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <button class="bg-[var(--accent-1)] px-8 py-4 rounded-full text-lg hover:bg-[#e8b8a9] transition">
+                <button class="t2 bg-[var(--accent-1)] px-8 py-4 rounded-full text-lg hover:bg-[#e8b8a9] transition">
                     Ver Coleção
                 </button>
                 <button
-                    class="border-2 border-[var(--accent-1)] px-8 py-4 rounded-full text-lg hover:bg-[var(--accent-1)] transition">
+                    class="t2 border-2 border-[var(--accent-1)] px-8 py-4 rounded-full text-lg hover:bg-[var(--accent-1)] transition">
                     Design Virtual
                 </button>
             </div>
@@ -249,8 +265,8 @@
                             d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </div>
-                <h3 class="text-2xl font-bold mb-4">Experiência Completa</h3>
-                <p class="text-gray-600">Da seleção às montagem final, cuidamos de cada detalhe</p>
+                <h3 class="t2 text-2xl font-bold mb-4">Experiência Completa</h3>
+                <p class="text-gray-600">Da seleção à montagem final, cuidamos de cada detalhe</p>
             </div>
 
             <div class="card-hover bg-white p-8 rounded-2xl text-center">
@@ -260,8 +276,8 @@
                             d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                     </svg>
                 </div>
-                <h3 class="text-2xl font-bold mb-4">Segurança Total</h3>
-                <p class="text-gray-600">Sistema de reserva e contratos 100% digitais</p>
+                <h3 class="t2 text-2xl font-bold mb-4">Segurança Total</h3>
+                <p class="text-gray-600">Sistema de reserva com contratos 100% digitais</p>
             </div>
 
             <div class="card-hover bg-white p-8 rounded-2xl text-center">
@@ -271,8 +287,8 @@
                             d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                 </div>
-                <h3 class="text-2xl font-bold mb-4">Entrega Rápida</h3>
-                <p class="text-gray-600">Montagem profissional em até 24h</p>
+                <h3 class="t2 text-2xl font-bold mb-4">Entrega Rápida</h3>
+                <p class="text-gray-600">Enviamos com a velocidade que seu sonho merece</p>
             </div>
         </div>
     </section>
@@ -290,7 +306,7 @@
                 <!-- Texto -->
                 <div class="order-1 md:order-2">
                     <span class="text-[var(--accent-1)] font-semibold">Sobre Nós</span>
-                    <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-6">
+                    <h2 class="t2 text-3xl md:text-4xl font-bold mt-2 mb-6">
                         Transformando Momentos em Memórias Mágicas
                     </h2>
 
@@ -324,8 +340,8 @@
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-12">
                 <span class="text-[var(--accent-1)] font-semibold">Inspire-se</span>
-                <h2 class="text-3xl md:text-4xl font-bold mt-2">Montagens Prontas</h2>
-                <p class="mt-4 max-w-2xl mx-auto">Veja decorações completas criadas com nossas peças</p>
+                <h2 class="t2 text-3xl md:text-4xl font-bold mt-2">Montagem Completa</h2>
+                <p class="mt-4 max-w-2xl mx-auto">Deixa com a gente! Nossos kits prontos são pensados pra você curtir cada momento sem preocupação.</p>
             </div>
 
             <!-- Carrossel Atualizado -->
@@ -346,7 +362,7 @@
             <div class="bg-white rounded-xl max-w-3xl w-full overflow-hidden">
                 <img id="modalImage" class="w-full h-64 md:h-96 object-cover" src="" alt="">
                 <div class="p-6 text-center">
-                    <h3 id="modalTheme" class="text-xl font-bold mb-2"></h3>
+                    <h3 id="modalTheme" class="t2 text-xl font-bold mb-2"></h3>
                     <p id="modalDescription" class="text-gray-600"></p>
                     <button onclick="closeModal()" class="btn-primary mt-4">Fechar</button>
                 </div>
@@ -359,7 +375,7 @@
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-12">
                 <span class="text-[var(--accent-1)] font-semibold">Processo Simples</span>
-                <h2 class="text-3xl md:text-4xl font-bold mt-2">Como Funciona o Aluguel</h2>
+                <h2 class="t2 text-3xl md:text-4xl font-bold mt-2">Guia Prático do Aluguel</h2>
             </div>
 
             <!-- Passos -->
@@ -377,13 +393,13 @@
                         </svg>
                     </div>
                     <div class="bg-[var(--accent-2)] p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                        <h3 class="text-xl font-bold mb-2">1. Escolha das Peças</h3>
-                        <p class="mb-4">Entre em contato via whatsapp, e escolha as peças</p>
+                        <h3 class="t2 text-xl font-bold mb-2">1. Escolha das Peças</h3>
+                        <p class="mb-4">Chama a gente no WhatsApp e vamos montar tudo juntinhos:</p>
                         <ul class="list-disc pl-4 text-sm">
-                            <li>Escolha as peças</li>
-                            <li>Verifique medidas e detalhes</li>
-                            <li>Escolha a cor e tema</li>
-                            <li>Escolha a quantidade</li>
+                            <li>Escolha as peças que você mais gostou</li>
+                            <li>A gente te ajuda a conferir as medidas e detalhes</li>
+                            <li>Conta pra gente o tema e as cores do seu evento</li>
+                            <li>E é só dizer a quantidade que vai precisar</li>
                         </ul>
                     </div>
                 </div>
@@ -398,24 +414,17 @@
                         </svg>
                     </div>
                     <div class="bg-[var(--accent-2)] p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                        <h3 class="text-xl font-bold mb-2">2. Disponibilidade</h3>
-                        <p class="mb-4">Confirmação imediata via whatsapp</p>
+                        <h3 class="t2 text-xl font-bold mb-2">2. Verificação de Disponibilidade</h3>
+                        <p class="mb-4">Quer garantir sua data? É rapidinho e sem complicação:</p>
                         <div class="space-y-2 text-sm">
                             <div class="flex items-center">
-                                <svg class="w-4 h-4 mr-2 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                Verifique datas disponíveis
+                                Chama a gente no WhatsApp e já confirma na hora
                             </div>
                             <div class="flex items-center">
-                                <svg class="w-4 h-4 mr-2 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                Reserva online segura
+                                Te ajudamos a ver os dias disponíveis
+                            </div>
+                            <div class="flex items-center">
+                                Reserve sua festa com toda segurança
                             </div>
                         </div>
                     </div>
@@ -431,11 +440,11 @@
                         </svg>
                     </div>
                     <div class="bg-[var(--accent-2)] p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                        <h3 class="text-xl font-bold mb-2">3. Entrega/Retirada</h3>
-                        <p class="mb-4">Escolha a opção que preferir:</p>
+                        <h3 class="t2 text-xl font-bold mb-2">3. Entrega ou Retirada</h3>
+                        <p class="mb-4">Você escolhe o que for mais prático:</p>
                         <div class="grid gap-2 text-sm">
-                            <div class="bg-white p-3 rounded-lg">🚚 Entrega especializada (+ taxa)</div>
-                            <div class="bg-white p-3 rounded-lg">🏪 Retirada em nosso endereço</div>
+                            <div class="bg-white p-3 rounded-lg">🚚 Quer que a gente leve até você? <br> Fazemos a entrega com todo cuidado (taxa extra)</div>
+                            <div class="bg-white p-3 rounded-lg">🏪 Prefere retirar? <br> É só passar no nosso endereço no horário combinado</div>
                         </div>
                     </div>
                 </div>
@@ -450,10 +459,11 @@
                         </svg>
                     </div>
                     <div class="bg-[var(--accent-2)] p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                        <h3 class="text-xl font-bold mb-2">4. Regras de Uso</h3>
+                        <h3 class="t2 text-xl font-bold mb-2">4. Regras de Uso + Dicas de Cuidado</h3>
+                        <p class="mb-4">Pra tudo sair lindo e sem imprevistos, é só seguir essas orientações:</p>
                         <div class="accordion">
                             <button class="accordion-btn flex items-center justify-between w-full text-left">
-                                <span>⚠️ Danos e extravios</span>
+                                <span>⚠️ Danos ou perdas</span>
                                 <svg class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -461,7 +471,7 @@
                                 </svg>
                             </button>
                             <div class="accordion-content mt-2 text-sm hidden">
-                                <p>Taxa de danos conforme avaliação técnica.</p>
+                                <p>Cuide com carinho! Peças danificadas ou extraviadas podem ser cobradas.</p>
                             </div>
                         </div>
                         <div class="accordion mt-3">
@@ -474,7 +484,22 @@
                                 </svg>
                             </button>
                             <div class="accordion-content mt-2 text-sm hidden">
-                                <p>Período padrão de 48h. Renovações sujeitas à disponibilidade.</p>
+                                <p>Combinamos o período direitinho — é importante devolver no prazo.</p>
+                            </div>
+                        </div>
+                        <div class="accordion mt-3">
+                            <button class="accordion-btn flex items-center justify-between w-full text-left">
+                                <span>💡 Dicas de cuidado:</span>
+                                <svg class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </button>
+                            <div class="accordion-content mt-2 text-sm hidden">
+                                <p>Evite expor as peças à chuva ou sol forte por muito tempo</p>
+                                <p>Mantenha longe de superfícies ásperas ou cortantes</p>
+                                <p>Guarde com cuidado até a devolução</p>
                             </div>
                         </div>
                     </div>
@@ -490,8 +515,8 @@
                         </svg>
                     </div>
                     <div class="bg-[var(--accent-2)] p-6 rounded-xl text-center">
-                        <h3 class="text-xl font-bold mb-4">Pronto para Começar?</h3>
-                        <button class="btn-primary w-full">Ver Catálogo</button>
+                        <h3 class="t2 text-xl font-bold mb-4">Partiu montar essa festa juntos?</h3>
+                        <button class="btn-primary w-full">Vamos começar!</button>
                     </div>
                 </div>
             </div>
@@ -503,14 +528,14 @@
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-12">
                 <span class="text-[var(--accent-1)] font-semibold">Tire suas dúvidas</span>
-                <h2 class="text-3xl md:text-4xl font-bold mt-2">Perguntas Frequentes</h2>
+                <h2 class="t2 text-3xl md:text-4xl font-bold mt-2">Perguntas Frequentes</h2>
             </div>
 
             <div class="max-w-3xl mx-auto grid gap-4">
                 <!-- Item 1 -->
                 <div class="bg-white rounded-xl shadow-sm transition-all duration-200 hover:shadow-md">
                     <button class="faq-btn w-full flex justify-between items-center p-6 text-left">
-                        <span class="text-lg font-medium">O que é o sitema Pegue e Monte?</span>
+                        <span class="text-lg font-medium">O que é o sistema Pegue e Monte?</span>
                         <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="var(--text-color)"
                             viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -597,7 +622,8 @@
                 <!-- Item 6 -->
                 <div class="bg-white rounded-xl shadow-sm transition-all duration-200 hover:shadow-md">
                     <button class="faq-btn w-full flex justify-between items-center p-6 text-left">
-                        <span class="text-lg font-medium">Posso personalizar a decoração com o nome da criança e detalhes únicos?
+                        <span class="text-lg font-medium">Posso personalizar a decoração com o nome da criança e
+                            detalhes únicos?
                         </span>
                         <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="var(--text-color)"
                             viewBox="0 0 24 24">
@@ -606,7 +632,8 @@
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="text-gray-600 space-y-2">
-                            <p>Claro! Adoramos personalizar. Cada detalhe é pensado com carinho para deixar a festa com a carinha do seu pequeno.</p>
+                            <p>Claro! Adoramos personalizar. Cada detalhe é pensado com carinho para deixar a festa com
+                                a carinha do seu pequeno.</p>
                         </div>
                     </div>
                 </div>
@@ -620,7 +647,7 @@
     <section class="bg-[var(--accent-2)] py-32 px-4 sm:px-6 lg:px-8" id="pegue-e-monte">
         <div class="max-w-3xl mx-auto">
             <div class="text-center mb-8">
-                <h2 class="text-3xl font-bold mb-2">Pegue e Monte</h2>
+                <h2 class="t2 text-3xl font-bold mb-2">Pegue e Monte</h2>
                 <p class="text-lg">“Pegue e monte” é um kit de decoração pronto, que você retira com a gente e monta no
                     local da festa. Prático, econômico e do jeitinho que você escolheu!
                 </p>
@@ -637,8 +664,8 @@
                                 d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                         </svg>
                     </div>
-                    <h3 class="font-bold mb-2">1. Selecione</h3>
-                    <p class="text-sm">Escolha as peças no catálogo</p>
+                    <h3 class="t2 font-bold mb-2">1. Selecione</h3>
+                    <p class="text-sm">Explore nosso catálogo e escolha as peças que vão deixar seu evento incrível.</p>
                 </div>
 
                 <!-- Passo 2 -->
@@ -650,8 +677,8 @@
                                 d="M4 6h16M4 12h16m-7 6h7" />
                         </svg>
                     </div>
-                    <h3 class="font-bold mb-2">2. Combine</h3>
-                    <p class="text-sm">Monte sua seleção do seu jeito</p>
+                    <h3 class="t2 font-bold mb-2">2. Combine</h3>
+                    <p class="text-sm">Monte seu kit do jeitinho que você imagina, do começo ao fim.</p>
                 </div>
 
                 <!-- Passo 3 -->
@@ -662,8 +689,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <h3 class="font-bold mb-2">3. Finalize</h3>
-                    <p class="text-sm">Confirme e retire com a gente</p>
+                    <h3 class="t2 font-bold mb-2">3. Finalize</h3>
+                    <p class="text-sm">Confirme sua escolha e retire com a gente, sem complicação.</p>
                 </div>
             </div>
 
@@ -680,8 +707,8 @@
     <section class="bg-white py-16 px-4 sm:px-6 lg:px-8" id="contato">
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Fale Conosco</h2>
-                <p class="text-lg text-[var(--text-color)]">Estamos aqui para ajudar no que precisar</p>
+                <h2 class="t2 text-3xl md:text-4xl font-bold mb-4">Fale Conosco</h2>
+                <p class="text-lg text-[var(--text-color)]">Pode contar com a gente! Estamos aqui para te orientar em cada passo.</p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -694,7 +721,7 @@
                                 d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884" />
                         </svg>
                     </div>
-                    <h3 class="font-bold mb-2">WhatsApp</h3>
+                    <h3 class="t2 font-bold mb-2">WhatsApp</h3>
                     <p class="mb-4">Atendimento rápido</p>
                     <a href="https://wa.me/5511999999999" target="_blank" class="btn-primary inline-block">
                         Enviar Mensagem
@@ -710,7 +737,7 @@
                                 d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
                         </svg>
                     </div>
-                    <h3 class="font-bold mb-2">Instagram</h3>
+                    <h3 class="t2 font-bold mb-2">Instagram</h3>
                     <p class="mb-4">@_parisfest</p>
                     <a href="https://www.instagram.com/_parisfest?igsh=OXRheXFxczhuYnIz" target="_blank"
                         class="btn-secondary inline-block">
@@ -730,7 +757,7 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="font-bold mb-2">Endereço</h3>
+                            <h3 class="t2 font-bold mb-2">Endereço</h3>
                             <p class="text-sm">
                                 Rua das Festas, 123<br>
                                 Bairro Decorado<br>
@@ -750,7 +777,7 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="font-bold mb-2">Horário</h3>
+                            <h3 class="t2 font-bold mb-2">Horário</h3>
                             <p class="text-sm">
                                 Seg-Sex: 8h às 18h<br>
                                 Sábado: 9h às 13h<br>
@@ -788,7 +815,7 @@
 
                 <!-- Links Rápidos -->
                 <div>
-                    <h3 class="font-bold mb-4 text-lg">Navegação</h3>
+                    <h3 class="t2 font-bold mb-4 text-lg">Navegação</h3>
                     <ul class="space-y-2 text-sm">
                         <li><a href="#home" class="hover:text-[var(--accent-1)] transition">Home</a></li>
                         <li><a href="#portifolio" class="hover:text-[var(--accent-1)] transition">Portifólio</a></li>
@@ -799,7 +826,7 @@
 
                 <!-- Contato -->
                 <div>
-                    <h3 class="font-bold mb-4 text-lg">Contato</h3>
+                    <h3 class="t2 font-bold mb-4 text-lg">Contato</h3>
                     <ul class="space-y-2 text-sm">
                         <li>📞 (15) 99767-9394</li>
                         <li>✉️ contato@parisfest.com</li>
@@ -809,9 +836,10 @@
 
                 <!-- Redes Sociais -->
                 <div>
-                    <h3 class="font-bold mb-4 text-lg">Redes Sociais</h3>
+                    <h3 class="t2 font-bold mb-4 text-lg">Redes Sociais</h3>
                     <div class="flex space-x-4">
-                        <a href="https://www.instagram.com/_parisfest?igsh=OXRheXFxczhuYnIz" target="_blank" class="p-2 bg-[var(--accent-2)] rounded-full hover:bg-[var(--accent-1)] transition">
+                        <a href="https://www.instagram.com/_parisfest?igsh=OXRheXFxczhuYnIz" target="_blank"
+                            class="p-2 bg-[var(--accent-2)] rounded-full hover:bg-[var(--accent-1)] transition">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                 <!-- Ícone Instagram -->
                                 <path
